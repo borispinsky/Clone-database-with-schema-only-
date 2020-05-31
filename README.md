@@ -8,4 +8,6 @@ It’s could be done with four simple steps in powershell, but first Download th
 2.	Create dacpac from you source database with Extract action.
 3.	Create TSQL script with Script action.
 4.	Run the script against out empty database.
+
+
 *** Disclaimer: this solution won’t work if you source database has orphaned users. 
