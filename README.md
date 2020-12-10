@@ -7,10 +7,10 @@ I was surprised to figure out that it’s could be much simpler with SqlPackage.
 It’s could be done with four simple steps in powershell, but first Download the latest version of SqlPackage.exe:
 https://docs.microsoft.com/en-us/sql/tools/sqlpackage?view=sql-server-ver15
 
-1.	Create Empty database.
+1.	Create an empty database.
 2.	Create dacpac from you source database with Extract action.
 3.	Create TSQL script with Script action.
-4.	Run the script against empty database.
+4.	Run the script against your empty database.
 
 
 *** Disclaimer: this solution won’t work if you source database has orphaned users. 
