@@ -35,6 +35,8 @@ BEGIN
 
         COMMIT;
 
+        PERFORM pg_sleep(1);
+
         v_lo := v_lo + v_batch;
     END LOOP;
 END;
